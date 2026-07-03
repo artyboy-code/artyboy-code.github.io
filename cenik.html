@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceník — AutoGo</title>
+  <meta name="description" content="Přehledný ceník carsharingu AutoGo. Minutová, hodinová i denní sazba. Palivo a pojištění vždy v ceně.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html">Auto<span>Go</span></a>
+    <button class="nav-toggle" aria-label="Otevřít menu" onclick="document.querySelector('.nav').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav">
+      <a href="index.html">Domů</a>
+      <a href="jak-to-funguje.html">Jak to funguje</a>
+      <a href="cenik.html" class="active">Ceník</a>
+      <a href="o-nas.html">O nás</a>
+      <a class="btn" href="o-nas.html#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom: 40px;">
+  <div class="wrap">
+    <span class="eyebrow">Ceník</span>
+    <h1>Jednoduché ceny, <em>žádná překvapení.</em></h1>
+    <p class="lead">Platíte za čas jízdy a ujeté kilometry. Palivo, pojištění, servis i dálniční známka jsou vždy v ceně. Bez registračních a měsíčních poplatků.</p>
+  </div>
+</section>
+
+<hr class="road">
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Sazby podle třídy vozu</h2>
+    <p class="section-intro">Ceny jsou uvedeny včetně DPH. Sazba se počítá automaticky podle délky pronájmu — vždy tou nejvýhodnější kombinací.</p>
+    <div class="price-table-wrap">
+      <table class="prices">
+        <thead>
+          <tr>
+            <th>Třída vozu</th>
+            <th style="text-align:right">Za minutu</th>
+            <th style="text-align:right">Za hodinu</th>
+            <th style="text-align:right">Za den (24 h)</th>
+            <th style="text-align:right">Za kilometr</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cls">Městské<small>např. Škoda Fabia, Toyota Aygo</small></td>
+            <td class="num">4,50 Kč</td>
+            <td class="num">129 Kč</td>
+            <td class="num">890 Kč</td>
+            <td class="num">3,50 Kč</td>
+          </tr>
+          <tr>
+            <td class="cls">Kombi<small>např. Škoda Octavia Combi</small></td>
+            <td class="num">5,90 Kč</td>
+            <td class="num">169 Kč</td>
+            <td class="num">1 190 Kč</td>
+            <td class="num">4,20 Kč</td>
+          </tr>
+          <tr>
+            <td class="cls">Užitkové<small>např. VW Transporter — na stěhování</small></td>
+            <td class="num">7,50 Kč</td>
+            <td class="num">219 Kč</td>
+            <td class="num">1 590 Kč</td>
+            <td class="num">4,90 Kč</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="notes">
+      <li>Prvních 15 minut rezervace je zdarma, poté 1 Kč/min do zahájení jízdy.</li>
+      <li>Parkování v provozní zóně během pronájmu je v ceně.</li>
+      <li>Spoluúčast při zaviněné nehodě činí 5 000 Kč (lze snížit na 0 Kč příplatkem 30 Kč/den).</li>
+      <li>Ceny jsou orientační — aktuální cenu vždy vidíte v aplikaci před zahájením jízdy.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section-soft">
+  <div class="wrap">
+    <div class="cta-band">
+      <div>
+        <h2>Nevíte, která sazba se vyplatí?</h2>
+        <p>Nemusíte to řešit — účtujeme automaticky nejvýhodnější kombinaci.</p>
+      </div>
+      <a class="btn" href="jak-to-funguje.html">Jak to funguje</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>© 2026 AutoGo · autogo.cz</div>
+    <div class="foot-links">
+      <a href="obchodni-podminky.html">Obchodní podmínky</a>
+      <a href="ochrana-osobnich-udaju.html">Ochrana osobních údajů</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
